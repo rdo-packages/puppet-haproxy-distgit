@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-797968667ce3a1d2a716514be482719d7c7086fc	puppet-haproxy-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+0d39388286e81c1987707b138eafbe9ad8a2106f       	puppet-haproxy-distgit-core
+797968667ce3a1d2a716514be482719d7c7086fc        	puppet-haproxy-distgit-ptl
+global:Registered-Users		Registered Users
