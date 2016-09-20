@@ -7,8 +7,8 @@
 
 
 Name:           puppet-haproxy
-Version:        XXX
-Release:        XXX
+Version:        1.5.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Configures HAProxy servers and manages the configuration of backend member servers.
 License:        Apache-2.0
 
@@ -50,4 +50,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/haproxy/
 
 
 %changelog
+* Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 1.5.0-1.f8c5f27.git
+- Newton update 1.5.0 (f8c5f2774f78fec9c2ee5b88d3e1c89e4013bd0a)
+
 
