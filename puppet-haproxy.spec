@@ -1,4 +1,10 @@
+%{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-haproxy
+%global commit f8c5f2774f78fec9c2ee5b88d3e1c89e4013bd0a
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
 
 Name:           puppet-haproxy
 Version:        XXX
@@ -8,7 +14,7 @@ License:        Apache-2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-haproxy
 
-Source0:        https://github.com/puppetlabs/puppetlabs-haproxy/archive/%{version}.tar.gz
+Source0:        https://github.com/puppetlabs/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
