@@ -10,7 +10,7 @@ Name:           puppet-haproxy
 Version:        XXX
 Release:        XXX
 Summary:        Configures HAProxy servers and manages the configuration of backend member servers.
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-haproxy
 
