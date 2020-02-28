@@ -54,4 +54,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/haproxy/
 - Update to post 4.1.0 (df96ffc5276ee316be925f9423612e9190055d8f)
 
 
-
