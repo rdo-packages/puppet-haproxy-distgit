@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-haproxy
-%global commit f8c5f2774f78fec9c2ee5b88d3e1c89e4013bd0a
+%global commit 04e0ffae432e6f772f19b192b3992ff4987b1182
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-haproxy
-Version:        XXX
-Release:        XXX
+Version:        6.3.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Configures HAProxy servers and manages the configuration of backend member servers.
 License:        ASL 2.0
 
@@ -50,5 +50,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/haproxy/
 
 
 %changelog
+* Mon Oct 03 2022 RDO <dev@lists.rdoproject.org> 6.3.0-1.04e0ffagit
+- Update to post 6.3.0 (04e0ffae432e6f772f19b192b3992ff4987b1182)
+
 
 
