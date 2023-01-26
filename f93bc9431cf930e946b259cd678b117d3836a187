@@ -1,0 +1,9 @@
+Code-Review+1: Cédric Jeanneret <cjeanner+github@redhat.com>
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 26 Jan 2023 13:10:34 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/puppet/puppet-haproxy-distgit/+/46724
+Project: puppet/puppet-haproxy-distgit
+Branch: refs/heads/rpm-master
